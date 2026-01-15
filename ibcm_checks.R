@@ -75,11 +75,3 @@ rdt/investigated # 28% tested positive on RDT
 healthy <- 16
 healthy/investigated # 55% healthy
 healthy + rdt + probable
-
-intro <- 848
-methods <- 1061 + 185; methods
-results <- 615 + 968; results
-discussion <- 1517
-total <- intro + methods + results + discussion
-total
-
