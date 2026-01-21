@@ -16,11 +16,9 @@ library(lubridate)
 
 # contact tracing forms
 animal_ct <- as.data.frame(read_excel("data/Animal_Contact_Tracing_Form_-_all_versions_-_False_-_2025-03-24-13-22-00.xlsx"))
-human_ct <- as.data.frame(read_excel("data/Human_Contact_Tracing_Form_-_all_versions_-_False_-_2025-03-24-13-22-31.xlsx"))
 human_ct <- as.data.frame(read_excel("data/Human_Contact_Tracing_Form_KH_edit.xlsx"))
 
 # investigation forms
-animal_inv <- as.data.frame(read_excel("data/Animal_Investigation_Form_-_all_versions_-_False_-_2025-03-24-13-21-30.xlsx"))
 animal_inv <- as.data.frame(read_excel("data/Animal_Investigation_Form_KH_edit.xlsx"))
 human_inv <- as.data.frame(read_excel("data/Human_Investigation_Form_-_all_versions_-_False_-_2025-03-24-13-22-16.xlsx"))
 
